@@ -1,16 +1,12 @@
-
 body {
 	background: url(universo-espacio-interestelar_1920x1080_xtrafondos.com.jpg);
 	animation: movimiento 90s infinite linear;
 }
 
-
-
 .titulo-card {   
 	width: 100%;
 	max-width: 1080px;
 	margin: auto;
-	margin-top: 1rem;
 	padding: 20px;
 	text-align: center;
 	color: whitesmoke;
@@ -49,9 +45,9 @@ body {
 
 .acercaDeTitulo {
 	width: 100%;
-	max-width: 80px;
+	max-width: 1080px;
 	margin: auto;
-	margin-top: 7rem;
+	margin-top: 1rem;
 	text-align: center;
 	color: whitesmoke;
 }
@@ -233,7 +229,7 @@ body{
 	max-width: 1080px;
 	margin: auto;
 	padding: 20px;
-	margin-top: 10rem;
+	margin-top: 1rem;
 	text-align: center;
 	color: whitesmoke;
 }
@@ -372,7 +368,7 @@ s
 	display: flex;
 	max-width: 1100px;
 	margin: auto;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 footer {
