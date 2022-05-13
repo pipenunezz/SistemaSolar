@@ -3,7 +3,6 @@ body {
 	animation: movimiento 90s infinite linear;
 }
 
-
 .TourTitulo {
 	width: 100%;
 	max-width: 1080px;
@@ -22,8 +21,6 @@ body {
 	text-align: center;
 	color: whitesmoke;
 }
-
-
 
 .card:hover {
 	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);
@@ -112,7 +109,6 @@ body {
 	from {
 		background-position: top left;
 	}
-
 	to {
 		background-position: bottom right;
 	}
@@ -148,6 +144,18 @@ body {
 	cursor: default;
 }
 
+.cardtextotour {
+	width: 100%;
+	max-width: 500px;
+	border-radius: 6px;
+	margin: auto;
+	text-align: center;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+	margin-bottom: 7rem;
+}
+
 .cardtour {
 	width: 100%;
 	margin: 20px;
@@ -180,11 +188,11 @@ body {
 
 .TourImagenes{
 	width: 100%;
-	overflow-x: auto;
 	padding: 20px;
+	overflow-x: auto;
 	margin: auto;
 	text-align: center;
-	margin-bottom: 7rem;
+	margin-bottom: -1rem;
 }
 
 .container-tour {
@@ -262,10 +270,4 @@ footer {
 	border-radius: 4px;
 	transition: all 400ms ease;
 	margin-bottom: 5px;
-}
-
-.alert{
-	background-color: aqua;
-}
-
-  
+} 
